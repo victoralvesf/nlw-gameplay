@@ -6,7 +6,7 @@ import { ButtonIcon } from '../../components/ButtonIcon'
 
 import { styles } from './styles'
 
-export const SignIn: React.FC = () => {
+export function SignIn() {
   return (
     <View style={styles.container}>
       <Image source={Illustration} style={styles.image} resizeMode="stretch" />

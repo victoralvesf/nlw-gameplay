@@ -20,5 +20,3 @@ export function BackgroundLinear({ children }: Props) {
     </LinearGradient>
   );
 }
-
-export default BackgroundLinear;

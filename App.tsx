@@ -5,8 +5,9 @@ import { Inter_500Medium, Inter_400Regular } from '@expo-google-fonts/inter'
 import { Rajdhani_500Medium, Rajdhani_700Bold } from '@expo-google-fonts/rajdhani'
 import AppLoading from 'expo-app-loading'
 
-import { SignIn } from './src/screens/SignIn'
-import BackgroundLinear from './src/components/BackgroundLinear'
+// import { SignIn } from './src/screens/SignIn'
+import { Home } from './src/screens/Home'
+import { BackgroundLinear } from './src/components/BackgroundLinear'
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -27,7 +28,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      <SignIn />
+      <Home />
     </BackgroundLinear>
   );
 }
