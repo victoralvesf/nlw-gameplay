@@ -22,7 +22,6 @@ export function Profile() {
 
         <Text style={styles.message}>Hoje é dia de vitória</Text>
       </View>
-
     </View>
   );
 }
